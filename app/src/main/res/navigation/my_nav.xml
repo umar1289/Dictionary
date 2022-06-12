@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.dictionary.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/uzbekFragment"
+        android:name="com.example.dictionary.UzbekFragment"
+        android:label="fragment_uzbek"
+        tools:layout="@layout/fragment_uzbek" />
+    <fragment
+        android:id="@+id/englishFragment"
+        android:name="com.example.dictionary.EnglishFragment"
+        android:label="fragment_english"
+        tools:layout="@layout/fragment_english" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.dictionary.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.dictionary.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
